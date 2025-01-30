@@ -1,10 +1,10 @@
-# Cricket Pose Detection Using CNN and MediaPipe
+# Pose Classification using CNN and MediaPipe
 
-This repository contains an implementation of a deep learning approach for cricket pose detection using Convolutional Neural Networks (CNN) and MediaPipe for body keypoint detection.
+This repository contains an implementation of a deep learning approach for  pose classification using Convolutional Neural Networks (CNN) and MediaPipe for body keypoint detection.
 
 ## Features
-- **Dataset**: Utilizes a dataset of cricket poses with images processed using MediaPipe.
-- **Model Architecture**: Implements a custom CNN model  and compares it with transfer learning models like VGG16, InceptionV3, InceptionResNetV2, and NASNetMobile.
+- **Dataset**: Utilizes a dataset of  poses with images processed using MediaPipe.
+- **Model Architecture**: Implements a custom CNN model (YogaConvo2d) and compares it with transfer learning models like VGG16, InceptionV3, InceptionResNetV2, and NASNetMobile.
 - **Skeletonization**: Uses MediaPipe to skeletonize images, improving classification accuracy.
 - **Training**: Includes training scripts with loss and accuracy tracking.
 - **Evaluation**: Provides detailed performance metrics, confusion matrices, and comparison with state-of-the-art models.
@@ -19,13 +19,13 @@ Dataset link: https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/yoga_pose_classification.git](https://github.com/anisa011/Pose-Detection-Using-CNN-01)
+git clone [https://github.com/yourusername/yoga_pose_classification.git](https://github.com/shub-garg/Yoga-Pose-Skeletonization-and-Classification)
 cd Yoga_Pose_Skeletonization_and_Classification
 ```
 
 ### Launch Jupyter Notebook
 ```bash
-jupyter notebook cnn-yoga.ipynb
+jupyter notebook cnn-cricket.ipynb
 ```
 
 ### Run All Cells
@@ -49,7 +49,19 @@ Confusion Matrix: Displays the confusion matrix for model evaluation.
 | VGG16 (MediaPipe)            | 97.36%                | 96.86%          | 0.97      | 0.97   | 0.97     |
 | VGG16 (Non-MediaPipe)        | 95.60%                | 95.53%          | 0.96      | 0.95   | 0.96     |
 
+Example Plots
+Accuracy and Loss Curves
+<p align="center">
+  <img src="Images/plot.png" alt="Accuracy and Loss Curves">
+</p>
+Confusion Matrix
+<p align="center">
+  <img src="Images/confusion.png" alt="Confusion Matrix">
+</p>
+For more details, please refer to the following paper:
 
-For More Details:
+
     
-[Link to paper](https://link.springer.com/article/10.1007/s12652-022-03910-0).# Pose-Detection-Using-CNN-O1
+
+    
+[Link to paper](https://link.springer.com/article/10.1007/s12652-022-03910-0).
