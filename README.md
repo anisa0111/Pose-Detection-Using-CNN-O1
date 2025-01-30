@@ -1,9 +1,9 @@
-# Pose Classification using CNN and MediaPipe
+# Yoga Pose Classification using CNN and MediaPipe
 
-This repository contains an implementation of a deep learning approach for  pose classification using Convolutional Neural Networks (CNN) and MediaPipe for body keypoint detection.
+This repository contains an implementation of a deep learning approach for yoga pose classification using Convolutional Neural Networks (CNN) and MediaPipe for body keypoint detection.
 
 ## Features
-- **Dataset**: Utilizes a dataset of  poses with images processed using MediaPipe.
+- **Dataset**: Utilizes a dataset of yoga poses with images processed using MediaPipe.
 - **Model Architecture**: Implements a custom CNN model (YogaConvo2d) and compares it with transfer learning models like VGG16, InceptionV3, InceptionResNetV2, and NASNetMobile.
 - **Skeletonization**: Uses MediaPipe to skeletonize images, improving classification accuracy.
 - **Training**: Includes training scripts with loss and accuracy tracking.
@@ -25,7 +25,7 @@ cd Yoga_Pose_Skeletonization_and_Classification
 
 ### Launch Jupyter Notebook
 ```bash
-jupyter notebook cnn-cricket.ipynb
+jupyter notebook cnn-yoga.ipynb
 ```
 
 ### Run All Cells
@@ -61,7 +61,17 @@ Confusion Matrix
 For more details, please refer to the following paper:
 
 
-    
+    @article{Garg:2023,
+      Author = {Shubham Garg and Aman Saxena and Richa Gupta},
+      Title = {Yoga pose classification: a CNN and MediaPipe inspired deep learning approach for real-world application},
+      Year = {2023},
+      Journal = {Journal of Ambient Intelligence and Humanized Computing},
+      Volume = {14},
+      Number = {12},
+      Pages = {16551--16562},
+      Publisher = {Springer},
+      Howpublished = {\url{https://link.springer.com/article/10.1007/s12652-022-03910-0}}
+    } 
 
     
 [Link to paper](https://link.springer.com/article/10.1007/s12652-022-03910-0).
