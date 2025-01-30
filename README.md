@@ -1,6 +1,6 @@
-# Yoga Pose Classification using CNN and MediaPipe
+# Pose Detection using CNN and MediaPipe
 
-This repository contains an implementation of a deep learning approach for yoga pose classification using Convolutional Neural Networks (CNN) and MediaPipe for body keypoint detection.
+This repository contains an implementation of a deep learning approach for  pose detection using Convolutional Neural Networks (CNN) and MediaPipe for body keypoint detection.
 
 ## Features
 - **Dataset**: Utilizes a dataset of yoga poses with images processed using MediaPipe.
