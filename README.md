@@ -12,7 +12,7 @@ This repository contains an implementation of a deep learning approach for yoga 
 Dataset link: https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
 
 <p align="center">
-  <img src="Images/skel.png" alt="Accuracy and Loss Curves">
+  <img src="images/skel.png" alt="Accuracy and Loss Curves">
 </p>
 
 ## Setup and Usage
@@ -25,7 +25,7 @@ cd Yoga_Pose_Skeletonization_and_Classification
 
 ### Launch Jupyter Notebook
 ```bash
-jupyter notebook cnn-yoga.ipynb
+jupyter notebook cnn-cricket.ipynb
 ```
 
 ### Run All Cells
@@ -52,26 +52,15 @@ Confusion Matrix: Displays the confusion matrix for model evaluation.
 Example Plots
 Accuracy and Loss Curves
 <p align="center">
-  <img src="Images/plot.png" alt="Accuracy and Loss Curves">
+  <img src="images/plot.png" alt="Accuracy and Loss Curves">
 </p>
 Confusion Matrix
 <p align="center">
-  <img src="Images/confusion.png" alt="Confusion Matrix">
+  <img src="images/confusion.png" alt="Confusion Matrix">
 </p>
 For more details, please refer to the following paper:
 
 
-    @article{Garg:2023,
-      Author = {Shubham Garg and Aman Saxena and Richa Gupta},
-      Title = {Yoga pose classification: a CNN and MediaPipe inspired deep learning approach for real-world application},
-      Year = {2023},
-      Journal = {Journal of Ambient Intelligence and Humanized Computing},
-      Volume = {14},
-      Number = {12},
-      Pages = {16551--16562},
-      Publisher = {Springer},
-      Howpublished = {\url{https://link.springer.com/article/10.1007/s12652-022-03910-0}}
-    } 
-
+    
     
 [Link to paper](https://link.springer.com/article/10.1007/s12652-022-03910-0).
