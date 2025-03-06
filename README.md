@@ -58,9 +58,9 @@ Confusion Matrix
 <p align="center">
   <img src="images/confusion.png" alt="Confusion Matrix">
 </p>
-For more details, please refer to the following paper:
+
 
 
     
     
-[Link to paper](https://link.springer.com/article/10.1007/s12652-022-03910-0).
+
