@@ -116,7 +116,7 @@ All models evaluated on validation and held-out test sets. MediaPipe (skeletoniz
 ![Accuracy and loss curves](images/plot.png)
 
 ### Confusion Matrix
-![Confusion matrix](images/confusion1.png)
+![Confusion matrix](images/confusion.jpeg)
 
 ---
 
